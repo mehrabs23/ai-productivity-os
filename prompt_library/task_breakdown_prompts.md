@@ -119,6 +119,9 @@ Also flag:
 - Any milestone sequence that looks too compressed (not enough time between steps)
 - Any milestone that should actually come before another milestone based on dependencies
 - What I should have completed or in progress by [TODAY'S DATE] if I'm to stay on track
+- Identify the most critical upcoming milestone — the one that, if missed, would jeopardize the whole timeline
+
+*(Also listed in prioritization_prompts.md Prompt 3)*
 ```
 
 ---

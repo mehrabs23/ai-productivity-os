@@ -3,7 +3,7 @@
 ## Building a Personal Productivity System with AI
 
 **Date:** Day 3  
-**Theme:** Dashboard & UX — Kanban, Visibility, and Streaks  
+**Theme:** Dashboard — Kanban, Streaks & UX Audit  
 **Your goal today:** Build a Master Dashboard that makes your entire productivity system navigable from a single page.
 
 ---
@@ -132,7 +132,7 @@ Open your dashboard from a new tab. Time yourself: can you find your most import
 ### Extension Task
 - Add a "Quick Capture" toggle block at the top of your dashboard for fast inbox items
 - Add an "Inbox" note section for things that need to be processed later
-- Use the Dashboard Design Prompt in [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md) to get AI feedback on your layout
+- Use the Dashboard UX Audit Prompt in [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md) to get AI feedback on your layout
 
 ### Deliverable
 Master Dashboard page with at least 3 linked views and functional layout.
@@ -257,6 +257,6 @@ Refined Master Dashboard with at least 2 documented UX improvements.
 | Task | Prompt File | Prompt Name |
 |------|------------|-------------|
 | 1A (Extension) | `system_optimization_prompts.md` | Kanban Design Prompt |
-| 2A (Extension) | `system_optimization_prompts.md` | Dashboard Design Prompt |
+| 2A (Extension) | `system_optimization_prompts.md` | Dashboard UX Audit Prompt |
 | 3A (Extension) | `system_optimization_prompts.md` | Habit Design Prompt |
 | 4A | `system_optimization_prompts.md` | Dashboard UX Audit Prompt |

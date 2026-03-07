@@ -511,8 +511,8 @@ Please assign realistic target dates by working backwards.
 Flag any milestone that looks too compressed.
 Tell me what I should have done by [TODAY'S DATE] to stay on track.
 ```
-> 📎 Repo prompt: `prompt_library/task_breakdown_prompts.md` — Prompt 3: Milestone Generation  
-> 📎 Repo prompt: `prompt_library/task_breakdown_prompts.md` — Prompt 4: Reverse Planning
+> 📎 Repo prompt: `task_breakdown_prompts.md` — Prompt 3: Milestone Generation  
+> 📎 Repo prompt: `prioritization_prompts.md` — Prompt 3: Reverse Planning (also in `task_breakdown_prompts.md` Prompt 4)
 """))
 
     cells.append(md("### 🎯 Activity 1A — Define Milestones for Your Key Project"))
@@ -875,7 +875,10 @@ A **Kanban board** makes work-in-progress visible by showing tasks as cards movi
 > 📎 Full stage guide: `templates/kanban_structure.md`
 """))
 
-    cells.append(md("### 🎯 Activity 1A — Build Your Kanban View"))
+    cells.append(md("""\
+### 🎯 Activity 1A — Build Your Kanban View
+> 📎 Extension prompt: `system_optimization_prompts.md` — Prompt 3: Kanban Design Prompt
+"""))
     cells.append(code("""\
 # ✏️ YOUR INPUT — assign statuses to your tasks
 
@@ -1015,7 +1018,10 @@ From `templates/streak_tracker_structure.md`:
 > **Start with 2 habits only. Add a 3rd only after 3 weeks of consistency.**
 """))
 
-    cells.append(md("### 🎯 Activity 3A — Log Your Streak Data"))
+    cells.append(md("""\
+### 🎯 Activity 3A — Log Your Streak Data
+> 📎 Extension prompt: `system_optimization_prompts.md` — Prompt 4: Habit Design Prompt
+"""))
     cells.append(code("""\
 # ✏️ YOUR INPUT
 # habits = the 2–3 habits you are tracking
@@ -1221,7 +1227,9 @@ Every morning (10–15 minutes):
 > 📎 Full prompts: `prompt_library/daily_planning_prompts.md`
 """))
 
-    cells.append(md("### 🎯 Activity 1A — Build Your AI Productivity Assistant Prompt"))
+    cells.append(md("""\
+### 🎯 Activity 1A — Set Up Your AI Context + Run Your Morning Planning Session
+"""))
     cells.append(code("""\
 # ✏️ YOUR INPUT — fill in your personal context
 

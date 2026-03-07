@@ -1,4 +1,4 @@
-# Day 3: Dashboard & UX — Kanban, Visibility, and Streaks
+# Day 3 — Dashboard, Kanban & Streak Tracking
 
 ## Building a Personal Productivity System with AI
 
