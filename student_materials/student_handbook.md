@@ -65,9 +65,25 @@ Each day follows the same rhythm:
 
 ### Using the Prompt Library
 
-The prompt library ([`prompt_library/`](../prompt_library/)) contains curated ChatGPT prompts for every task in this course. Each prompt is a template — you fill in the placeholders between `[brackets]` with your real data.
+The prompt library ([`prompt_library/`](../prompt_library/)) contains curated ChatGPT prompts for every task and stage of this course. Each file covers one category of work, and each prompt is a structured template — you fill in the placeholders between `[brackets]` with your real data.
 
-**Golden rule:** Always review and edit AI output before using it. The AI gives you a first draft. You own the final version.
+**Prompt library files:**
+
+| File | What it covers |
+|------|----------------|
+| `goal_design_prompts.md` | Goal definition, SMART conversion, feasibility check, long-term roadmap, goal portfolio review |
+| `task_breakdown_prompts.md` | Brain dump → system, goal → project → task hierarchy, effort estimation, Notion-ready tables |
+| `prioritization_prompts.md` | Task prioritization, impact/effort matrix, project ranking, overload triage, attention budget, weekly reset |
+| `daily_planning_prompts.md` | Morning planning, energy-aware scheduling, minimal day, focus blocks, deadline-first planning |
+| `review_prompts.md` | End-of-day reflection, stuckness diagnosis, weekly review, blocker diagnosis, progress update generator, retrospective |
+| `system_optimization_prompts.md` | Life OS audit, dashboard audit, clutter removal, habit design, consistency repair, persona packs |
+
+Each file also includes **persona-specific prompt variants** for students, freelancers, and content creators — labelled clearly within each file.
+
+**Golden rules for using the prompt library:**
+1. Always review and edit AI output before using it — the AI gives you a first draft, not a final answer
+2. The more specific your input, the more useful the output — don't use vague placeholders like "my goals"
+3. If a prompt produces output that feels generic, add more context to the prompt and retry
 
 ---
 
