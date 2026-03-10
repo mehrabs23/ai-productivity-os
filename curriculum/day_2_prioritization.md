@@ -309,7 +309,7 @@ Learners complete the Day 2 Daily Check-In:
 - What is one decision you made about where to focus this week?
 
 ### Preview of Day 3 (5 minutes)
-Tomorrow we move from a system in databases to a **system you can see and navigate**. Day 3 builds the Kanban board, the Master Dashboard, and the streak tracker.
+Tomorrow we move from a system in databases to a **Life OS you can navigate and use every day**. Day 3 builds the Life OS Kanban, the full Master Dashboard (including Due Soon, Overdue, and Today views), sets up reminders, and introduces the daily check-in ritual and weekly status view.
 
 ---
 

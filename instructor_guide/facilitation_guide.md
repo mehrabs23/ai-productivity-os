@@ -75,10 +75,10 @@ Most cohorts will have a 3x spread: some learners will finish tasks in half the 
 - **Facilitation move:** After the attention budget comparison, ask: "What does this reveal that you already knew but hadn't said out loud?" Silence is fine here.
 
 #### Day 3
-- **Biggest risk:** Dashboard over-engineering. Learners spend 45 minutes perfecting a layout instead of building the essential views.
-- **Most important session:** Session 2 (Dashboard Design). This is the session that makes the system feel real.
-- **Watch for:** Learners who build linked databases that point to wrong databases — check their setup during the first 10 minutes
-- **Facilitation move:** Do a "1-minute dashboard review" at the end: learners open their dashboard, you count to 5, they say whether they can find their top priority within 5 seconds.
+- **Biggest risk:** Dashboard over-engineering. Learners spend 45 minutes on layout instead of building required views.
+- **Most important session:** Session 3 (Life OS Dashboard Build). This is the session that makes the system feel real and daily.
+- **Watch for:** Learners who build linked databases pointing to wrong databases — check during the first 10 minutes of the dashboard build session. Also watch for learners who skip the daily check-in claiming "I'll do it tonight" — make sure it happens in class.
+- **Facilitation move:** After the dashboard build, do a group **"5-second test"** — learners open their dashboard, you count to 5 aloud, they say whether they can see their most urgent task. This immediately surfaces over-engineered layouts and drives immediate simplification. For the closing share-out, ask 2–3 volunteers to share their weekly status view — not just the dashboard aesthetics.
 
 #### Day 4
 - **Biggest risk:** Capstone time pressure — presentations run long.

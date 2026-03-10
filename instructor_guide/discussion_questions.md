@@ -86,33 +86,47 @@ Use these questions as prompts, not scripts. The best discussions emerge from a 
 
 ## Day 3 Discussion Questions
 
-### Session 1: Kanban
+### Session 2: Life OS Kanban
 
-**Q9.1.** "Look at your Kanban board. What does the distribution of cards across your stages tell you? What's the first thing you notice?"
+**Q9.1.** "Look at your Kanban board. What does the distribution of cards across your stages tell you? Which stage has the most cards in it — and is that a problem?"
 
-**Q9.2.** "What is blocked right now in your system — a task you can't move forward because you're waiting on someone or something? What would you need to do to unblock it?"
+**Q9.2.** "What task in your system is blocked right now? What would need to happen to unblock it, and is that in your control?"
 
----
-
-### Session 2: Dashboard
-
-**Q10.1.** "Open your dashboard and try the 5-second test: can you tell what your most important task is today within 5 seconds of loading the page? If not, what's getting in the way?"
-
-**Q10.2.** "What section of your dashboard do you predict you'll stop using within 30 days? Why? Should you remove it now?"
+**Q9.3.** "Across which areas of your life are you currently most overloaded? Does your Kanban make that visible, or does it hide it?"
 
 ---
 
-### Session 3: Streak Tracker
+### Session 3: Life OS Dashboard
 
-**Q11.1.** "What's the daily habit that would have the single biggest compounding effect on your goals — your most important leverage point? Why haven't you systematized it before?"
+**Q10.1.** "Open your dashboard and run the 5-second test: within 5 seconds, can you tell what your most important task is today? If not — what is getting in the way?"
 
-**Q11.2.** "What gets in the way of consistency for you? Is it motivation, memory, environment, or something else? How might your streak tracker address that?"
+**Q10.2.** "Which section of your dashboard do you predict you'll never open after this course? Should you remove it now, before it makes the dashboard feel heavy?"
+
+**Q10.3.** "Does your dashboard currently show you what's overdue? If you opened it right now, would you know immediately if something is late?"
 
 ---
 
-### Session 4: Dashboard UX Audit
+### Session 4: Reminders & Due Soon View
 
-**Q12.1.** *(Peer review)* "Exchange dashboards with a partner for 2 minutes. Give them one specific compliment about the design and one specific change that would improve clarity."
+**Q11.1.** "How do you currently remember things that are coming up in the next 2–3 days — before they become urgent? Is that system reliable?"
+
+**Q11.2.** "What's the task or commitment that, historically, you've been most likely to forget or delay because you didn't notice its deadline approaching? How would a Due Soon view have helped?"
+
+---
+
+### Session 5: Daily Check-In
+
+**Q12.1.** "How did it feel to complete the daily check-in? What was missing from how you usually end your day that this process made visible?"
+
+**Q12.2.** "What is the one question in the daily check-in you found hardest to answer honestly? Why do you think that is?"
+
+---
+
+### Session 6: Weekly Status & Progress Sharing
+
+**Q13.1.** *(Peer review)* "Share your 'Completed This Week' view with a partner for 60 seconds. Give them one observation: 'The pattern I notice in what you shipped this week is...' Then swap."
+
+**Q13.2.** "If you had to send your weekly status view to one person — a mentor, manager, or accountability partner — what would you want them to notice? What would you be nervous about them seeing?"
 
 ---
 

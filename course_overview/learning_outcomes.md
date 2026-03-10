@@ -46,19 +46,27 @@ By the end of this course, each learner will have **designed, built, and tested 
 
 ---
 
-#### Day 3: Dashboard & Tracking
+#### Day 3: Life OS Operationalization
 
 **By the end of Day 3, learners will be able to:**
 
-1. Build a customised Kanban board with workflow stages tailored to their work style
-2. Create a Master Dashboard inside Notion that aggregates filtered views of tasks, projects, and streaks
-3. Set up a Streak Tracker to monitor daily consistency on their top 2–3 habits or routines
-4. Apply usability principles to their dashboard (reduce noise, increase signal)
-5. Design at least two custom filtered views — e.g., "Today's Priorities" and "This Week's Deliverables"
-6. Evaluate their system's UX using a self-audit checklist driven by AI feedback
+1. Build a customised **Kanban board** with Life OS workflow stages (Inbox → Planned → This Week → In Progress → Waiting/Blocked → Done)
+2. Create a **Life OS Master Dashboard** inside Notion that aggregates filtered views of tasks across all life areas — including Today, Overdue, Due Soon, Active Projects, and Completed This Week
+3. Set reminders using date properties in Notion — surfaced through the **Due Soon** (next 3 days) and **Overdue** filtered views on the dashboard
+4. Complete a structured **daily check-in** inside Notion — the first real iteration of the daily ritual they'll use every day going forward
+5. Build a **weekly status and progress sharing view** — showing what was completed this week, for self-review or sharing with a mentor or accountability partner
+6. Evaluate their Life OS dashboard against usability principles (5-second test, signal-to-noise, action-orientation) using AI feedback
+
+**Mapping to Required Course Outcomes:**
+| Required Outcome | Covered In |
+|-----------------|------------|
+| Building Kanban boards and live dashboards | Sessions 2 & 3 |
+| Setting up reminders | Session 4 (Reminder Date property + Due Soon / Overdue views) |
+| Daily check-ins | Session 5 |
+| Sharing progress updates and status dashboards | Session 6 + Closing share-out |
 
 **Transformation Statement:**  
-*On Day 3, learners turn a functional database into a control panel they actually want to open each morning.*
+*On Day 3, learners operationalize their Life OS — transforming a database structure into a system they can navigate, act from, and share every day.*
 
 ---
 
@@ -86,7 +94,7 @@ By the end of this course, each learner will have **designed, built, and tested 
 | **System Design** | Database architecture, linked views, property design, filtering logic |
 | **Planning & Prioritization** | Reverse planning, milestone sequencing, priority tiering, anti-to-do |
 | **Time Awareness** | Attention budgeting, work session tracking, actual vs. ideal effort analysis |
-| **Dashboard Design** | Kanban setup, view filtering, streak tracking, visual signal design |
+| **Dashboard Design** | Kanban setup, Life OS dashboard views, reminder configuration, daily check-in, weekly status sharing |
 | **Reflection Practice** | Daily check-in, weekly review, retrospective methodology |
 | **Communication** | Capstone presentation, system walkthrough, design rationale |
 

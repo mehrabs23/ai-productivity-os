@@ -144,7 +144,7 @@ ai-productivity-course/
 |-----|-------|-------|
 | **Day 1** | Foundation | Goals · Projects · Tasks · System Setup |
 | **Day 2** | Prioritization | Milestones · Reverse Planning · Anti-To-Do · Attention Budgeting |
-| **Day 3** | Dashboard & Tracking | Kanban · Dashboard Design · Streaks · Progress Visibility |
+| **Day 3** | Life OS Operationalization | Kanban · Life OS Dashboard · Reminders · Daily Check-In · Progress Sharing |
 | **Day 4** | AI Review & Capstone | AI Planning Assistant · Reflection · Weekly Review · Retrospective · Capstone |
 
 ---

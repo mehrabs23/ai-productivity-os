@@ -52,7 +52,7 @@ Streaks, daily check-ins, and weekly reviews are not extras — they are core in
 |-----|-------|-----------------|
 | **Day 1: Foundation** | Goals, projects, and tasks | Notion workspace with goals, projects, and task database |
 | **Day 2: Prioritization** | Milestones, planning, and effort allocation | Prioritized milestone map + attention budget |
-| **Day 3: Dashboard & Tracking** | Kanban, progress visibility, and usability | Working productivity dashboard with streak tracker |
+| **Day 3: Life OS Operationalization** | Kanban, dashboards, reminders, daily check-ins, and status visibility | Working Life OS dashboard with Kanban, check-in, and weekly status view |
 | **Day 4: AI Review & Capstone** | AI planning loop, reflection, and retrospective | Daily AI planning workflow + capstone presentation |
 
 ---
@@ -68,7 +68,7 @@ By the end of the course, each learner will have assembled a complete productivi
 - A **Work Session Log** for tracking actual effort across projects
 - An **Attention Budget** for comparing desired vs. actual focus allocation
 - A **Kanban Board** with customised workflow stages
-- A **Master Dashboard** with linked views, streak tracker, and progress indicators
+- A **Life OS Dashboard** with Kanban, daily check-in, Due Soon and Overdue views, and weekly status
 - A **Daily AI Planning Routine** using a structured prompt sequence
 - A **Weekly Review Ritual** using guided reflection questions
 

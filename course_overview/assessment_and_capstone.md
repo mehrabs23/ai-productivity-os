@@ -41,10 +41,11 @@ These are not graded but are required for participation. They also serve as the 
 - [ ] Attention Budget with current vs. ideal allocations defined
 
 #### Day 3 Deliverables
-- [ ] Kanban Board with at least 4 workflow stages, populated with tasks
-- [ ] Master Dashboard page in Notion with at least 3 linked views
-- [ ] Streak Tracker with at least 2 daily habits or routines defined
-- [ ] Dashboard UX self-audit (completed using AI feedback prompt)
+- [ ] Kanban Board with Life OS workflow stages (6 stages), populated with tasks from at least 2 life areas
+- [ ] Life OS Master Dashboard with at least 5 linked views (Today, Overdue, Due Soon, Active Projects, Completed This Week)
+- [ ] Reminder Date property added to tasks; Due Soon and Overdue views working on dashboard
+- [ ] Daily Check-In completed in Notion for Day 3
+- [ ] Weekly Status view showing Completed This Week
 
 ---
 
@@ -73,10 +74,11 @@ Learners share their screen and walk the evaluator (or group) through their Noti
    - Explain the priority tiering logic
    - Show the Anti-To-Do List and what it reveals about their actual output
 
-4. **Dashboard Walkthrough** (2 min)  
-   - Walk through the Master Dashboard
-   - Show the Kanban board and at least one filtered view
-   - Show the Streak Tracker
+4. **Life OS Dashboard Walkthrough** (2 min)  
+   - Walk through the Life OS Master Dashboard
+   - Show the Kanban board, Today view, Overdue view, and Due Soon view
+   - Show the daily check-in toggle and most recent entry
+   - Show the Completed This Week / weekly status view
 
 5. **Daily AI Routine** (1 min)  
    - Describe their daily planning and end-of-day reflection ritual

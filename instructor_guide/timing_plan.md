@@ -86,34 +86,42 @@ Times are expressed as **elapsed time from session start (T+0)**.
 
 ## Day 3 Timing Plan
 
-**Day Theme:** Dashboard & Tracking — Kanban, Visibility, and Streaks  
+**Day Theme:** Life OS Operationalization — Kanban, Dashboard, Reminders, Daily Check-In, and Progress Sharing  
 **Total Duration:** 5 hours (300 minutes)
 
 | T+ | Activity | Duration | Cumulative |
 |----|----------|----------|------------|
-| 0:00 | Opening — System check + Day 2 debrief | 15 min | 15 min |
-| 0:15 | **Session 1 — Kanban Workflow Design** | | |
-| 0:15 | Teaching: Kanban principles + stage design | 20 min | 35 min |
-| 0:35 | Demo: Board view setup + WIP limit | 20 min | 55 min |
-| 0:55 | Student Task 1A: Build Kanban board | 35 min | 90 min |
-| 1:30 | Break | 10 min | 100 min |
-| 1:40 | **Session 2 — Master Dashboard Design** | | |
-| 1:40 | Teaching: Dashboard principles + linked views | 20 min | 120 min |
-| 2:00 | Demo: Build Alex's Mission Control dashboard | 20 min | 140 min |
-| 2:20 | Student Task 2A: Build your dashboard | 35 min | 175 min |
-| 2:55 | Break | 10 min | 185 min |
-| 3:05 | **Session 3 — Streak Tracker & Consistency** | | |
-| 3:05 | Teaching: Streak psychology + habit design | 20 min | 205 min |
-| 3:25 | Demo: Streak database + dashboard integration | 20 min | 225 min |
-| 3:45 | Student Task 3A: Fix your streak tracker | 30 min | 255 min |
-| 4:15 | Discussion: What habit would make the biggest difference? | 10 min | 265 min |
+| 0:00 | Opening — System check + Day 2 debrief + Life OS framing | 15 min | 15 min |
+| 0:15 | **Session 1 — Framing: From System to Life OS** | | |
+| 0:15 | Teaching: What does daily usability look like? | 15 min | 30 min |
+| 0:30 | Demo: Alex's Life OS walkthrough (what Day 3 builds) | 10 min | 40 min |
+| 0:40 | Student reflection: What areas of my life should be in my OS? | 10 min | 50 min |
+| 0:50 | **Session 2 — Life OS Workflow & Kanban Build** | | |
+| 0:50 | Teaching: Unified workflow stages across all life areas | 15 min | 65 min |
+| 1:05 | Demo: Build Kanban board view + active work filtered view | 20 min | 85 min |
+| 1:25 | Student Task: Build your Life OS Kanban | 35 min | 120 min |
+| 2:00 | Break | 10 min | 130 min |
+| 2:10 | **Session 3 — Life OS Dashboard Build** | | |
+| 2:10 | Teaching: Dashboard principles + 5-second test | 15 min | 145 min |
+| 2:25 | Demo: Build Alex's full Life OS dashboard (Today, Overdue, Due Soon, This Week, Active Projects, Kanban, Completed This Week) | 25 min | 170 min |
+| 2:50 | Student Task: Build your Life OS dashboard | 40 min | 210 min |
+| 3:30 | Break | 10 min | 220 min |
+| 3:40 | **Session 4 — Reminders & Due Soon / Overdue Views** | | |
+| 3:40 | Teaching: Reminder Date property + reducing mental load | 10 min | 230 min |
+| 3:50 | Demo: Add Reminder Date, build Due Soon + Overdue views | 15 min | 245 min |
+| 4:05 | Student Task: Set reminders + add Due Soon and Overdue views | 20 min | 265 min |
 | 4:25 | Lunch / Long break | 30 min | 295 min |
-| 4:55 | **Session 4 — Dashboard UX Audit** | | |
-| 4:55 | Teaching: UX audit principles (friction, load test) | 15 min | 310 min |
-| 5:10 | Demo: Run UX Audit Prompt on Alex's dashboard | 10 min | 320 min |
-| 5:20 | Student Task 4A: Self-audit + polish | 25 min | 345 min |
-| 5:45 | Closing: Share-out (dashboard screenshots) | 15 min | 360 min |
-| **End** | | | **~6h** |
+| 4:55 | **Session 5 — Daily Check-In** | | |
+| 4:55 | Teaching: What a daily check-in does + Daily Check-In Log setup | 10 min | 305 min |
+| 5:05 | Demo: Complete today's check-in in Alex's workspace | 10 min | 315 min |
+| 5:15 | Student Task: Complete your first daily check-in | 20 min | 335 min |
+| 5:35 | **Session 6 — Weekly Status & Dashboard Share-Out** | | |
+| 5:35 | Teaching: Weekly status view + sharing with accountability partners | 10 min | 345 min |
+| 5:45 | Student Task: Build Completed This Week view + write status summary | 15 min | 360 min |
+| 6:00 | Closing: Dashboard share-out (open dashboards, 5-second test, 2–3 volunteers) | 15 min | 375 min |
+| **End** | | | **~6h 15m** |
+
+> **Buffer note:** The biggest risk on Day 3 is dashboard over-engineering — learners spending 45 minutes perfecting layout instead of building essential views. After the dashboard build session, do a quick 5-second test as a group to redirect perfectionism.
 
 ---
 
