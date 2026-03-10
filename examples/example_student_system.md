@@ -43,11 +43,11 @@
 
 | Milestone | Target Date | Status |
 |-----------|------------|--------|
-| All lecture slides reviewed up to Week 5 | Week 5 Friday | ✅ Done |
-| Revision notes for Sorting algorithms complete | Week 6 Friday | ✅ Done |
-| Past exam questions (2019–2022) attempted | Week 7 Wednesday | 🟡 In Progress |
-| Midterm completed | Week 7 Friday | ⬜ Not Started |
-| Coursework 1 first draft written | Week 8 Friday | ⬜ Not Started |
+| All lecture slides reviewed up to Week 0X | Week 0X Friday | ✅ Done |
+| Revision notes for Sorting algorithms complete | Week 0Y Friday | ✅ Done |
+| Past exam questions (20XX–20YY) attempted | Week 0Z Wednesday | 🟡 In Progress |
+| Midterm completed | Week 0Z Friday | ⬜ Not Started |
+| Coursework 1 first draft written | Week 0A Friday | ⬜ Not Started |
 
 **Reverse planning insight:**  
 *"The midterm is Week 7 Friday. By Week 7 Wednesday I need to have done past papers — that means I need the revision notes done by Week 6. Working backwards, I can't wait until Week 7 to start revision."*
@@ -138,3 +138,76 @@ Sam adapted the Kanban stages for academic work:
 4. **Attention Budget Prompt** → Discovered society time was double target
 5. **Prioritization Prompt** → Correctly identified LeetCode prep as P3, not P1 (midterm > interview prep right now)
 6. **Daily Planning Prompt (Minimal Day version)** → Used on barista shift days to plan just 2 focused hours
+
+---
+
+## Day 3: Sam's Life OS Operationalized
+
+### Sam's Life OS Dashboard
+
+Sam named the dashboard: **🎓 Sam's Life OS**
+
+**Dashboard layout (2-column):**
+
+| Column 1 | Column 2 |
+|----------|----------|
+| 📝 Daily Check-In (toggle, top) | 📝 Daily Check-In (toggle, top) |
+| 🎯 Today (coursework + applications due today) | ⚠️ Overdue (anything past deadline) |
+| 📅 This Week | 🔔 Due Soon (next 3 days) |
+
+**Below fold:**
+- 🗂️ Kanban — Active (Board view, Status active)
+- 📊 Week in Review
+
+**Life areas represented in Sam's Kanban:**
+
+| Area | Example tasks |
+|------|--------------|
+| Studies | "Past paper timed attempt — Algorithms", "Databases assignment 1 draft" |
+| Applications | "Apply to 4 companies (Batch 1)", "Mock interview prep" |
+| Work (barista) | "Request shift swap for Week 7 exam week" |
+| Personal | "Book GP appointment", "Call home this weekend" |
+| Society | "Confirm if attending next society meeting" |
+
+### Sam's Reminder Setup
+
+Sam added Due Dates to the 5 most time-sensitive tasks:
+- Algorithms midterm: set Notion reminder for "2 days before"
+- Databases assignment: set Notion reminder for "3 days before"
+- Internship batch deadline: set Notion reminder for "1 week before"
+
+Sam's "Due Soon" view (next 3 days) had 3 tasks on the day we checked — the Algorithms past paper, a cover letter, and a society email response.
+
+### Sam's Daily Check-In (Example Entry)
+
+**📝 Daily Check-In — Week 7 Wednesday**
+
+1. **Top 3 priorities today:** Past paper attempt (Algorithms), Cover letter for Company D, Email society chair about stepping back from committee
+2. **Overdue to address first?** None today — Databases task is technically on time
+3. **What I avoided yesterday?** The timed past paper — again. Anxiety about seeing how bad my gaps are.
+4. **Energy level:** 3/5 (exam anxiety weighing on me)
+5. **What would make today feel complete?** Completing the past paper attempt — no notes, timed, real conditions.
+
+### Sam's Weekly Status (Week 7)
+
+**Week of: [Week 7 dates]**
+
+**Wins this week:**
+- Submitted Databases Assignment 1 (on time)
+- Applied to 2 companies (Batch 1 - 50% done)
+- Attended all lectures
+
+**Still in progress / carried over:**
+- Algorithms past papers (started and didn't finish)
+- Internship batch complete (2 more to go)
+
+**What I'm re-prioritising:**
+- Society committee emails — stepping back now to protect exam time
+
+**Focus for next week:**
+- Midterm on Friday — everything else moves to Planned this week
+
+### Sam's Key Day 3 Insight
+
+> *"Seeing 'Overdue: 0' on my dashboard felt surprisingly good. It means everything I committed to this week I've either done or moved consciously. Before this, I never knew if I was behind or not — I just felt vaguely anxious all the time."*
+

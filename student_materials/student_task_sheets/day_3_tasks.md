@@ -1,262 +1,378 @@
-# Day 3 Task Sheet
+# Day 3 Task Sheet — Workshop Handout
 
 ## Building a Personal Productivity System with AI
 
-**Date:** Day 3  
-**Theme:** Dashboard — Kanban, Streaks & UX Audit  
-**Your goal today:** Build a Master Dashboard that makes your entire productivity system navigable from a single page.
+**Day:** Day 3  
+**Theme:** Operationalizing Your Life OS — Dashboards, Workflow, Reminders, and Daily Check-ins  
+**Your goal today:** Build a Life OS you can actually open and use tomorrow morning.
 
 ---
 
-### Before You Start
+### Before You Start — Life OS Audit
 
-Make sure you have from Days 1–2:
-- [ ] Goals Database: 3+ goals
-- [ ] Projects Database: 2+ projects with milestones
-- [ ] Task Database: 10+ tasks with priority tiers
-- [ ] Anti-To-Do Log: 5+ entries
-- [ ] Work Session Log: 5+ sessions
-- [ ] Attention Budget documented
+Check that you have from Days 1 and 2:
 
-If anything is missing, use the first 15 minutes to backfill it.
+- [ ] At least 2–3 goals from different life areas (not just work)
+- [ ] Tasks from at least 2 life areas (work, studies, personal, health, content, admin, etc.)
+- [ ] At least 5 tasks with Due Dates set
+- [ ] Area / Life Domain property on your Task database (or note to add it today)
+- [ ] Your Notion workspace accessible and loading
+
+If anything is missing, use the first 15 minutes to backfill. Use the Task Breakdown Prompt to quickly populate tasks for an under-served area.
 
 ---
 
-## Task 1A: Build Your Kanban Board (Session 1 — 35 min)
+## Task 1 — Audit and Triage (Session 1 — 15 min)
 
-**Objective:** Set up a Kanban board view of your Task Database with meaningful workflow stages.
+**Objective:** Ensure your Life OS has real data before you build on top of it.
 
-### Kanban Stage Reference
+**Estimated time:** 15 minutes
 
-| Stage | What Goes Here |
-|-------|---------------|
-| Backlog | Captured tasks, not yet scheduled |
-| This Week | Committed tasks for the current week |
-| In Progress | Actively being worked on (max 3) |
-| Blocked | Cannot move — waiting on external input |
-| Done | Completed (archive or review weekly) |
+### What to do
 
-You may rename or add stages to match your actual workflow.
+1. Open your Task Database in Notion
+2. Confirm you have tasks in at least 2 different life areas (work + at least one of: personal, studies, content, health, admin)
+3. Look for tasks missing a Due Date — add a date to at least 5 of them now
+4. Check if you have an "Area" or "Life Domain" property on your task database. If not, add a Select property with these options: Work / Studies / Personal / Content / Health / Admin / Finance
+5. Assign Area values to your 10 most important tasks
+
+### What success looks like
+- 10+ tasks, at least 2 life areas represented
+- 5+ tasks with Due Dates
+- Area property exists on Task database
+
+### Common mistakes
+- Only having work tasks (your Life OS should represent your whole life)
+- Tasks without dates (they can't power your reminder views)
+
+---
+
+## Task 2 — Build Your Life OS Kanban (Session 2 — 30 min)
+
+**Objective:** Create a visual workflow board across all life areas using a unified set of status values.
+
+**Estimated time:** 30 minutes
+
+### Your 6 Status Values (set these exactly)
+
+| Status | What Goes Here |
+|--------|---------------|
+| Inbox | Captured but not yet processed |
+| Planned | Acknowledged, not yet scheduled |
+| This Week | Committed for this week |
+| In Progress | Actively working on (max 3 at once) |
+| Waiting / Blocked | Can't move — waiting on someone or something |
+| Done | Completed |
 
 ### Step-by-Step
 
 1. **Open your Task Database**
-2. **Add a new view:** Click "+ Add a view" → select "Board"
-3. **Group by:** Status property
-4. **Edit Status options** to match your workflow stages:
-   - Rename/add options to match the reference above (or your custom stages)
-   - Assign emoji if helpful (e.g., 🔴 Blocked)
-5. **Sort your tasks:** Drag each task card to the correct stage based on its real current status
-6. **Add a WIP limit reminder:**
-   - Create a Callout block above your Kanban view
-   - Write: "⚠️ In Progress limit: 3 — if you're adding a 4th, something must move to Done first"
-7. **Create a filtered Kanban view called "Active Work":**
-   - Filter out Backlog (too noisy) and Done (use for review only)
-   - This is your daily working view
+2. **Click "+ Add a view"** → choose **Board**
+3. **Set "Group by" to:** Status
+4. **Edit your Status property options** (via the property settings, not the view):
+   - Remove any old options that don't match the 6 values above
+   - Add the 6 values, assign different colors so each column is visually distinct
+5. **Move your tasks** into the correct columns based on their real current state
+   - Anything unscheduled = Inbox or Planned
+   - Anything you're actively working on = In Progress (max 3!)
+   - Anything blocked = Waiting / Blocked
+6. **Create a filtered view called "Active":**
+   - Click "Filter" on the board view
+   - Add filter: Status ≠ Inbox
+   - Add filter: Status ≠ Done
+   - Rename the view: "Active Work"
+7. **Add a WIP limit callout above the board:**
+   - Press `/` → type "Callout" → select it
+   - Write: "🎯 In Progress limit: 3. Adding a 4th? Something must move first."
 
-### What to look at when you're done
-- Is anything in Blocked? What would unblock it?
-- Does In Progress have more than 3 cards? That's your WIP violation to resolve.
-- Does Backlog look overwhelming? That's your signal for the overload triage prompt.
+### What success looks like
+- Board view exists with 6 status columns in distinct colors
+- Tasks from 2+ life areas visible on the board
+- "Active Work" filtered view excludes Inbox and Done
+- WIP callout visible above the board
 
-### Minimum Viable Task
-- Task Database has a Board view with 4+ workflow stages
-- Tasks are sorted into appropriate columns
-- WIP limit reminder added
-- "Active Work" filtered view created
+### Common mistakes
+- Only work tasks on the Kanban (your personal and study tasks should be here too)
+- 5+ tasks in "In Progress" at once (this defeats the purpose — be honest about what's truly active)
+- Forgetting to create the "Active" filtered view (the main board is too noisy without it)
 
-### Extension Task
-- Try grouping by Priority instead of Status — what does this reveal about how your work is distributed?
-- Use the "Kanban Design Prompt" in [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md) to get suggestions for custom stages specific to your work type
+### Stretch version
+Create a second Board view grouped by "Area / Life Domain" — this shows you which life area has the most open work and which is neglected.
 
 ### Deliverable
-Task Database in Board view with 4+ stages, tasks distributed, WIP limit visible.
+Task Database Board view with 6 statuses, tasks from 2+ areas, "Active Work" filtered view, WIP callout.
 
 ---
 
-## Task 2A: Build Your Master Dashboard (Session 2 — 35 min)
+## Task 3 — Build Your Life OS Dashboard (Session 3 — 40 min)
 
-**Objective:** Create a single Notion page that aggregates your most important system views.
+**Objective:** Build a single Notion page that shows your full life system at a glance.
 
-### Dashboard Sections (Minimum)
+**Estimated time:** 40 minutes
 
-| Section | Source Database | Filter |
-|---------|----------------|--------|
-| Today's Focus | Tasks | Due = today OR Priority = Critical |
-| This Week | Tasks | Due ≤ +7 days, sort Priority H→L |
-| Active Projects | Projects | Status = Active |
+### Required Dashboard Sections (build in this order)
+
+| Section | Purpose |
+|---------|---------|
+| 📝 Daily Check-In (toggle) | First thing you see each day |
+| 🎯 Today | Tasks due/prioritized for today |
+| ⚠️ Overdue | Tasks where due date is past |
+| 🔔 Due Soon | Tasks due in next 3 days |
+| 📅 This Week | Tasks due within 7 days |
+| 🗂️ Kanban — Active | Embedded board view |
+| ✅ Completed Recently | Tasks done in last 7 days |
+| 📊 Weekly Status | Progress summary for the week |
 
 ### Step-by-Step
 
-1. **Create a new Notion page** at the top level of your workspace
-   - Name it: "🏠 [Your Name]'s Mission Control"
-   - This is your new home page
+**A. Create the page:**
+1. In Notion, click "+ New page" in the sidebar
+2. Name it: `[emoji] [Your Name]'s Life OS` (e.g., "🏠 Alex's Life OS")
+3. Click the **•••** at the top → enable **"Full width"**
+4. Click the smiley face icon area → add an emoji icon (e.g., 🏠 or 🧠)
+5. Click "Add cover" → choose a cover from Notion's free library (or leave as solid color — add your own screenshot later)
 
-2. **Add a header callout block:**
-   - "Productivity Dashboard | Today: [today's date]"
+**B. Add a header callout:**
+1. Press `/` → type "Callout" → select
+2. Write: `Life OS | [Today's date] | [Your main life areas]`
+3. Give it a color that feels motivating (blue, purple, or teal recommended)
 
-3. **Create a 2-column layout** (drag content blocks side by side)
+**C. Create column layout:**
+1. Type a title: "🎯 Today" as a Heading 2
+2. Below it, add a linked database: press `/` → "Linked view of database" → select your Task database
+3. Rename the view "Today"
+4. Filter: Due Date = Today — OR — Status = In Progress
+5. Hide all properties except: Task Name, Status, Area
+6. Hover to the right edge of that block until you see a blue line → drag another block to sit beside it (creates 2-column layout)
 
-4. **Add "Today's Focus" linked database (Column 1, top):**
-   - Click "+ Add linked database" → select your Task database
-   - Rename the view: "Today's Focus"
-   - Filter: Due Date = Today OR Priority = Critical
-   - Show only: Task Name + Status (hide all other properties)
+**D. Add remaining views (in each column or below):**
+- **Overdue:** Link Task DB → Filter: Due Date before Today AND Status ≠ Done
+- **Due Soon:** Link Task DB → Filter: Due Date next 3 days AND Status ≠ Done
+- **This Week:** Link Task DB → Filter: Due Date within 7 days → Sort: Priority high→low
+- **Active Kanban:** Link Task DB → Board view → use your "Active Work" filter
+- **Completed Recently:** Link Task DB → Filter: Status = Done AND Date modified ≥ 7 days ago
+- **Weekly Status:** Heading 2, then a text block with prompts (see Task 6 below)
 
-5. **Add "Active Projects" linked database (Column 1, below):**
-   - Link to Projects database
-   - Filter: Status = Active
-   - View type: Gallery or List
-
-6. **Add "This Week" linked database (Column 2):**
-   - Link to Task database
-   - Filter: Due Date ≤ +7 days
-   - Sort: Priority high → low
-   - View type: Table
-
-7. **Add "Anti-To-Do: Today" linked database (Column 2, below):**
-   - Link to Anti-To-Do database
-   - Filter: Date = today
-
-8. **Pin or favourite this page** so it's your Notion home
+**E. Set as home page:**
+- Right-click your dashboard page in the sidebar → "Set as default page" (or pin it to the top)
 
 ### The 5-Second Test
-Open your dashboard from a new tab. Time yourself: can you find your most important task within 5 seconds?
+Close Notion. Open it again. Navigate to your dashboard. Start a timer.  
+**Can you see your top priority within 5 seconds?**  
+If not: move the "Today" section higher. Remove one section that doesn't answer an urgent question.
 
-### Minimum Viable Task
-- Master Dashboard page titled and accessible
-- At least 3 linked views created
-- At least 2 sections in a 2-column layout
-- Dashboard is set as your Notion home (pinned or favourited)
+### What success looks like
+- Dashboard has icon, cover, full-width layout
+- 5+ linked views, at least 2 columns
+- Shows data from real tasks (not empty)
+- Set as your Notion home
 
-### Extension Task
-- Add a "Quick Capture" toggle block at the top of your dashboard for fast inbox items
-- Add an "Inbox" note section for things that need to be processed later
-- Use the Dashboard UX Audit Prompt in [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md) to get AI feedback on your layout
+### Common mistakes
+- Too many sections (more than 9 = scroll fatigue — pick the most useful)
+- Table view for everything (mix list, gallery, board views for readability)
+- Forgetting to apply filters (a linked database without a filter shows everything — too noisy)
+- Aesthetics before data (choose a cover *after* the views are working)
+
+### Stretch version
+Add a "navigation bar" using buttons or text links at the very top of the page to jump to each section quickly.
 
 ### Deliverable
-Master Dashboard page with at least 3 linked views and functional layout.
+Life OS Dashboard: icon, cover, full-width, 5+ linked views in 2-column layout, set as Notion home.
 
 ---
 
-## Task 3A: Build Your Streak Tracker (Session 3 — 30 min)
+## Task 4 — Set Up Reminder Views (Session 4 — 20 min)
 
-**Objective:** Track 2–3 daily process habits using a Notion database linked to your dashboard.
+**Objective:** Make your dashboard actively surface what's urgent and overdue.
 
-### What to Track (choose your 2–3)
-
-Think: process habits, not outcome targets.
-
-**Good streak habits:**
-- ✅ Completed morning planning
-- ✅ Updated Anti-To-Do (at least 1 entry)
-- ✅ Logged at least 1 work session
-- ✅ Completed end-of-day reflection
-- ✅ Reviewed dashboard at day start
-
-**Avoid tracking:**
-- ❌ "Worked on Project A for 4 hours" (outcome, not process)
-- ❌ "Completed 5 tasks" (outcome target — varies with life)
+**Estimated time:** 20 minutes
 
 ### Step-by-Step
 
-1. **Create a "Streak Tracker" database in Notion:**
-   - Properties: Date (Date) | Habit (Select) | Completed (Checkbox) | Notes (Text, optional)
-   - Add your 2–3 habit options in the Habit Select property
+1. **Open your Task database** (the main database, not a view)
+2. **Add "Reminder Date" property:**
+   - Click "+ Add a property" → choose Date
+   - Name it: "Reminder Date"
+   - This is the date when you want to be reminded, *before* the due date
+3. **Set at least 2 Notion reminders on real tasks:**
+   - Open a task → click the Due Date field → click the date → toggle the reminder option
+   - Set to "1 day before" or "2 days before"
+   - Notion will send you a push notification (make sure Notion notifications are enabled)
+4. **Verify your "Due Soon" view works:**
+   - Open the Due Soon view → confirm it shows tasks due in the next 3 days
+   - If it's empty: add due dates to tasks first (go back to Task 1)
+5. **Verify your "Overdue" view works:**
+   - Open the Overdue view → confirm it shows tasks where due date is in the past and Status ≠ Done
+   - Sort by Due Date ascending (earliest overdue at top)
+6. **Confirm both views are visible on your dashboard**
 
-2. **Add today's entries:**
-   - One row per habit (e.g., if you track 3 habits, add 3 rows for today)
-   - Check the Completed box for any habit you've already done today
+### What success looks like
+- Reminder Date property exists on Task database
+- 2+ tasks have Notion reminders set
+- Due Soon view shows real upcoming tasks (not empty)
+- Overdue view shows real overdue tasks (if any) or "0" if all dates are current
 
-3. **Create a Streak Tracker view:**
-   - Filter: Date ≥ [today minus 14 days] (last 2 weeks)
-   - Sort: Date descending
-   - View type: Table
+### Common mistakes
+- Tasks have no Due Dates → views show nothing (add dates first)
+- Due Soon shows 14+ days ahead (too wide — keep at 3–5 days max)
+- Overdue view not sorted (hardest overdue tasks should be at the top)
 
-4. **Add your Streak Tracker to your Master Dashboard:**
-   - Link the Streak Tracker database to your Mission Control page
-   - Place it in a visible location (below the fold is fine)
-
-5. **Backfill (optional but recommended):**
-   - Add entries for the past 3 days with honest estimates (Did you do morning planning on Monday? Tuesday?)
-
-### Minimum Viable Task
-- Streak Tracker database created with 2–3 habits defined
-- Today's entries added (one row per habit)
-- Streak view linked to Master Dashboard
-
-### Extension Task
-- Backfill the last 5 days honestly
-- Identify: which habit do you most consistently skip? What's getting in the way?
-- Use the "Habit Design Prompt" in [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md) to get suggestions for which habits to track based on your goals
+### Stretch version
+Add a third reminder view: "Reminder Date = Today" — tasks where your self-set Reminder Date is today.
 
 ### Deliverable
-Streak Tracker with 2–3 habits, today's entries, and view linked to Master Dashboard.
+Reminder Date property added. 2+ Notion reminders set. Due Soon and Overdue views working and visible on dashboard.
 
 ---
 
-## Task 4A: Dashboard UX Audit (Session 4 — 25 min)
+## Task 5 — Create Your Daily Check-In Routine (Session 5 — 20 min)
 
-**Objective:** Evaluate and improve your dashboard's usability using a structured self-audit and AI feedback.
+**Objective:** Build a daily check-in ritual inside your Life OS Dashboard.
 
-### UX Audit Questions
-
-Answer each question honestly before using AI feedback:
-
-1. **Load Test:** Open your dashboard from a blank Notion screen. Time from click to "I know what to do today." Is it ≤ 5 seconds?
-
-2. **Noise Check:** Is there any section you already know you'll ignore most days? _(Be honest — it's okay to remove something you added)_
-
-3. **Click Count:** Pick a specific task. How many clicks does it take to open it from the dashboard? _(Target: ≤ 3 clicks)_
-
-4. **Label Clarity:** Are all your linked views clearly named? Could someone else understand what each section is for without explanation?
-
-5. **Emotional Check:** Does opening this dashboard feel like relief (clarity) or dread (overwhelm)?
+**Estimated time:** 20 minutes
 
 ### Step-by-Step
 
-1. **Self-audit:** Answer the 5 questions above. Write your answers in a brief Notion note or directly in this task sheet.
+1. **Go to the top of your Life OS Dashboard**
+2. **Add a toggle block:**
+   - Press `/` → type "Toggle" → select "Toggle List"
+   - Name it: `📝 Daily Check-In — [Today's Date]`
+3. **Inside the toggle, add these 5 questions as text lines:**
+   ```
+   1. What are my top 3 priorities today?
+   
+   2. Is there anything overdue I need to handle first?
+   
+   3. Was there anything I avoided yesterday? Do I need to move it today?
+   
+   4. My energy level today: /5
+   
+   5. What would make today feel complete?
+   ```
+4. **Fill it in right now** (this is your first real check-in — do it for real, not as a test)
+5. **Move the toggle above the "Today" view** (it should be the very first thing on the page)
+6. **Optional:** If you prefer, create a separate "Daily Log" database instead of a toggle — Date, Priorities, Reflections, Energy
 
-2. **Run the Dashboard UX Audit Prompt:**
-   - Open [`prompt_library/system_optimization_prompts.md`](../../prompt_library/system_optimization_prompts.md)
-   - Use the "Dashboard UX Audit Prompt"
-   - Describe your dashboard layout (section names, what they show, how they're arranged)
-   - Submit to ChatGPT
+### What success looks like
+- Check-in toggle is at the top of the dashboard (not buried below the fold)
+- Questions are clear and quick to answer (under 5 minutes)
+- You have filled it in for today
 
-3. **Implement at least 2 changes from the AI feedback:**
-   - Remove a redundant section
-   - Rename an unclear view
-   - Reorder sections to surface the most important view first
-   - Hide a property from a linked view that's adding noise
+### Common mistakes
+- Making the check-in a 20-question journal entry (it becomes a barrier instead of a ritual)
+- Placing it below the fold (out of sight = out of habit)
+- Not actually completing it today (this is a habit — it starts today)
 
-4. **Document your changes:**
-   - Add a brief note to your dashboard (or a Callout block): "Updated [date] — removed [X], renamed [Y]"
-
-### Minimum Viable Task
-- Self-audit completed (5 questions answered, even briefly)
-- At least 2 UX changes implemented based on AI feedback or your own audit
+### Stretch version
+Create a standalone "Daily Log" database with: Date (Date), Top 3 (Text), Energy (Number 1–5), One Thing I Avoided (Text). Link it to the dashboard.
 
 ### Deliverable
-Refined Master Dashboard with at least 2 documented UX improvements.
+Daily Check-In toggle at the top of your dashboard, filled in for today.
+
+---
+
+## Task 6 — Build Weekly Status Section (Session 6 — 20 min)
+
+**Objective:** Add a Weekly Status section to your dashboard for progress visibility and weekly review preparation.
+
+**Estimated time:** 20 minutes
+
+### Step-by-Step
+
+1. **Scroll to the bottom of your Life OS Dashboard**
+2. **Add a Heading 2:** `📊 Week in Review`
+3. **Add "Completed This Week" linked view:**
+   - Link Task database
+   - Filter: Status = Done AND (Date filter: within this week)
+   - View: List (compact)
+   - Rename: "✅ Completed This Week"
+4. **Add a Weekly Status text block below the linked view:**
+   ```
+   **Week of:** 
+   
+   **Wins this week:**
+   - 
+   
+   **Still in progress / carried over:**
+   - 
+   
+   **What I'm re-prioritising:**
+   - 
+   
+   **Focus for next week:**
+   - 
+   ```
+5. **Fill in "Wins this week"** right now with anything you've completed since Monday
+6. **Optional:** Add "Still Open from Last Week" = Overdue view (reuse the one you built in Task 4)
+
+### What success looks like
+- "Completed This Week" view shows real tasks from this week
+- Weekly Status text template is filled in (at least partially)
+- Someone reading this section could understand your week's progress in under 2 minutes
+
+### Common mistakes
+- Not filtering by "this week" (shows all completed tasks ever — misleading)
+- Leaving the status template blank (the data alone doesn't tell the story)
+- Making it too long (5 lines per section max — this is a summary, not a report)
+
+### Stretch version
+Add a "Next Week Focus" section below with 3 lines for next week's priorities — makes the weekly review transition smoother.
+
+### Deliverable
+Weekly Status section at bottom of dashboard with "Completed This Week" view and filled-in status template.
+
+---
+
+## Task 7 — Simulate Your First Day in the Life OS (Session 7 — 15 min)
+
+**Objective:** Walk through your system as if it's tomorrow morning.
+
+**Estimated time:** 15 minutes
+
+### The Simulation Steps
+
+Do this as if it's 8:30am tomorrow:
+
+1. Open your dashboard (only the dashboard — no sidebar navigation)
+2. Open your Daily Check-In toggle → fill in tomorrow's version
+3. Scan "Today" → pick your #1 priority → open it
+4. Glance at "Overdue" → anything to address before starting?
+5. Check "Due Soon" → anything to move to "This Week" status?
+6. Look at your Kanban Active view → is everything in the right column?
+7. Capture one new task that comes to mind → make sure it lands in "Inbox" status
+
+### Debrief (write or discuss):
+- How long did the morning scan take?
+- What felt natural? What felt awkward?
+- What one layout change would make this faster?
+
+### Deliverable
+Completed the simulation. One layout change noted and applied.
 
 ---
 
 ## Day 3 End-of-Day Checklist
 
-- [ ] Kanban Board: 4+ stages, tasks sorted, WIP limit visible
-- [ ] Master Dashboard: 3+ linked views in a 2-column layout
-- [ ] Streak Tracker: 2–3 habits, today's entries, linked to dashboard
-- [ ] Dashboard UX: 2+ improvements implemented
-- [ ] Daily Check-In completed (see [`reflection_templates/daily_checkin.md`](../reflection_templates/daily_checkin.md))
-- [ ] Reviewed capstone instructions for tomorrow (see [`capstone_instructions.md`](../capstone_instructions.md))
+Use the detailed completion checklist in [`student_materials/day_3_completion_checklist.md`](../day_3_completion_checklist.md).
+
+Quick summary:
+
+- [ ] Life OS Kanban — 6 statuses, 2+ life areas, "Active Work" filtered view
+- [ ] Life OS Dashboard — icon, cover, full-width, 5+ linked views
+- [ ] Due Soon and Overdue views — working and visible in dashboard
+- [ ] Reminders set on 2+ tasks
+- [ ] Daily Check-In — built and completed for today
+- [ ] Weekly Status — built and partially filled for this week
+- [ ] Completed the Day-in-the-Life simulation
+- [ ] Day 3 Daily Check-In reflection written
 
 ---
 
-## Prompt References Used Today
+## Prompt References for Day 3
 
 | Task | Prompt File | Prompt Name |
 |------|------------|-------------|
-| 1A (Extension) | `system_optimization_prompts.md` | Kanban Design Prompt |
-| 2A (Extension) | `system_optimization_prompts.md` | Dashboard UX Audit Prompt |
-| 3A (Extension) | `system_optimization_prompts.md` | Habit Design Prompt |
-| 4A | `system_optimization_prompts.md` | Dashboard UX Audit Prompt |
+| 1 (Triage) | `prompt_library/task_breakdown_prompts.md` | Task Breakdown Prompt |
+| 2 (Kanban — Extension) | `prompt_library/system_optimization_prompts.md` | Kanban Design Prompt |
+| 3 (Dashboard — Extension) | `prompt_library/system_optimization_prompts.md` | Dashboard UX Audit Prompt |
+| 5 (Check-In — Extension) | `prompt_library/daily_planning_prompts.md` | Daily Check-In Design Prompt |

@@ -326,9 +326,10 @@ The capstone is a 10-minute presentation per learner, followed by 5 minutes of f
 
 ## Notebook Mapping
 
-> See [`notebooks/README.md`](../notebooks/README.md) for planned notebook content.
+> This day's activities are supported by **optional interactive notebooks** for deeper analysis.
+> See [`notebooks/day_4_ai_review_and_capstone.ipynb`](../notebooks/day_4_ai_review_and_capstone.ipynb) or the [Colab version](../colab_versions/day_4_ai_review_and_capstone.ipynb).
 
-**Planned notebook exercises for Day 4 (future):**
+**Available notebook exercises for Day 4:**
 - `nb_07_weekly_review_analysis.ipynb` — Analyse weekly review patterns over 4+ weeks; identify recurring gaps
 - `nb_08_retrospective_tracker.ipynb` — Track implemented retrospective changes and their outcomes
 

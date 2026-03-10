@@ -10,11 +10,12 @@ This is a **practical, hands-on course** that guides learners through building t
 
 By the end of Day 4, every learner will have a working, personalised productivity system inside Notion, powered by structured AI prompts and designed to keep them focused, accountable, and clear-headed — every single day.
 
-**Primary Tools:** Notion · ChatGPT · Google Colab (optional, future extension)
+**Primary Tools:** Notion · ChatGPT
+**Extension:** Jupyter Labs / Google Colab (Optional interactive exercises)
 
 **Format:** 4 days × 5 hours = 20 hours of guided instruction and practice
 
-**Approach:** No-code. Prompt-driven. Template-first.
+**Approach:** No-code (primary). Prompt-driven. Template-first.
 
 ---
 
@@ -47,7 +48,7 @@ ai-productivity-course/
 ├── curriculum/                        ← Full lesson-level curriculum, day by day
 │   ├── day_1_foundation.md
 │   ├── day_2_prioritization.md
-│   ├── day_3_dashboard_and_ux.md
+│   ├── day_3_dashboard_and_tracking.md
 │   └── day_4_ai_review_and_capstone.md
 │
 ├── instructor_guide/                  ← For instructors and facilitators
@@ -94,20 +95,22 @@ ai-productivity-course/
 │   ├── example_student_system.md
 │   └── example_freelancer_system.md
 │
-├── notebooks/                         ← Future Jupyter notebooks (not yet built)
-│   └── README.md
+├── notebooks/                         ← Interactive Jupyter Notebooks
+│   ├── day_1_foundation.ipynb
+│   ├── day_2_prioritization.ipynb
+│   ├── day_3_dashboard_and_tracking.ipynb
+│   └── day_4_ai_review_and_capstone.ipynb
 │
-├── colab_versions/                    ← Future Google Colab versions (not yet built)
-│   └── README.md
+├── colab_versions/                    ← Google Colab equivalents
+│   ├── day_1_foundation.ipynb
+│   ├── day_2_prioritization.ipynb
+│   ├── day_3_dashboard_and_tracking.ipynb
+│   └── day_4_ai_review_and_capstone.ipynb
 │
 └── assets/                            ← Visual assets
-    ├── README.md
     ├── diagrams/
-    │   └── README.md
     ├── screenshots/
-    │   └── README.md
     └── sample_outputs/
-        └── README.md
 ```
 
 ---
@@ -131,7 +134,7 @@ ai-productivity-course/
 2. All student-facing materials are in [`student_materials/`](student_materials/)
 3. Prompt library is in [`prompt_library/`](prompt_library/) — ready to copy into course platform
 4. Templates are in [`templates/`](templates/) — Notion blueprints + CSV starters
-5. Notebooks and Colab versions are **planned but not yet built** — see `notebooks/README.md`
+5. Interactive notebooks are available in [`notebooks/`](notebooks/) and [`colab_versions/`](colab_versions/)
 
 ---
 
@@ -141,7 +144,7 @@ ai-productivity-course/
 |-----|-------|-------|
 | **Day 1** | Foundation | Goals · Projects · Tasks · System Setup |
 | **Day 2** | Prioritization | Milestones · Reverse Planning · Anti-To-Do · Attention Budgeting |
-| **Day 3** | Dashboard & UX | Kanban · Dashboard Design · Streaks · Progress Visibility |
+| **Day 3** | Dashboard & Tracking | Kanban · Dashboard Design · Streaks · Progress Visibility |
 | **Day 4** | AI Review & Capstone | AI Planning Assistant · Reflection · Weekly Review · Retrospective · Capstone |
 
 ---
@@ -152,7 +155,7 @@ ai-productivity-course/
 |------|---------|------|
 | **Notion** | Workspace, database, and dashboard | [notion.so](https://notion.so) |
 | **ChatGPT** | AI assistant for planning and reflection | [chat.openai.com](https://chat.openai.com) |
-| **Google Colab** | Optional: notebook-based exercises (future) | [colab.research.google.com](https://colab.research.google.com) |
+| **Google Colab** | Optional: interactive notebook exercises | [colab.research.google.com](https://colab.research.google.com) |
 
 > No paid subscriptions required. ChatGPT free tier is sufficient throughout the course.
 
@@ -169,9 +172,9 @@ ai-productivity-course/
 | Prompt Library | ✅ Complete |
 | Templates | ✅ Complete |
 | Examples | ✅ Complete |
-| Notebooks | 🔜 Planned — not yet built |
-| Colab Versions | 🔜 Planned — not yet built |
-| Assets | 🔜 To be populated |
+| Notebooks | ✅ Available |
+| Colab Versions | ✅ Available |
+| Assets | 🔜 Population in progress |
 
 ---
 

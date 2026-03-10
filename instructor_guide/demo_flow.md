@@ -151,43 +151,165 @@ Use Alex consistently across all demos. Learners will begin to feel familiar wit
 
 ## Day 3 Demos
 
----
-
-### Demo 3.1 — Kanban Board (Session 1, 20 min)
-
-**Steps:**
-1. Open Alex's Task database → switch to Board view
-2. Edit Status options: Backlog → This Week → In Progress → Blocked → Done
-3. Move Alex's tasks into appropriate columns: 8 Backlog, 3 This Week, 1 In Progress, 1 Blocked, 2 Done
-4. Add a WIP limit callout above the board: "⚠️ In Progress limit: 3"
-5. Create filtered view: "Active Work" — exclude Backlog and Done
-
-**Visual emphasis:** Show the "Blocked" column. "Notice there's one task here — it's blocked because Alex is waiting on a client response. This is information. Without a Kanban, that task just sits invisibly on a list."
+> **Day 3 theme:** Operationalizing the Life OS — show students how the system becomes usable every day, not just structured.
 
 ---
 
-### Demo 3.2 — Master Dashboard (Session 2, 20 min)
+### Demo 3.0 — Day 3 Frame-Setting (Opening, 5 min)
 
-**Steps:**
-1. Create new page: "🏠 Alex's Mission Control"
-2. Add a title callout: "Dashboard as of [today's date] — Alex, UX Designer"
-3. Add 2-column layout
-4. Column 1, Section 1: Linked database "Today's Focus" — Task table, filter: Due = today OR Priority = Critical, hide all properties except Task Name and Status
-5. Column 1, Section 2: Linked database "Active Projects" — Project gallery, filter: Status = Active, show: Name + Priority
-6. Column 2, Section 1: Linked database "This Week" — Task table, filter: Due within 7 days, sort Priority H→L
-7. Column 2, Section 2: Anti-To-Do Today — filter by date = today
-8. "Now open the dashboard. One page. Everything visible. This is the front page of Alex's day."
+**What to say:**
+
+> "Days 1 and 2 built the engine — your goals, projects, tasks, and prioritization. Today we build the dashboard and the daily driving habit. By the end of today, you'll have one page you open every morning instead of juggling three apps and a sticky note."
+
+**Key reframe:** This is a **Life OS** — not a work PM tool. Alex's dashboard will show tasks from client work, newsletter, personal life, and admin. Show learners that multi-area visibility is the point.
+
+**What to click first:**
+- Open Alex's current Notion workspace, showing fragmented databases with no dashboard
+- "Here's what Alex has right now — great foundations, but try to figure out what matters most today. Ready? Go."
+- Pause for 10 seconds. Let learners observe the friction.
+- "Today we fix that."
 
 ---
 
-### Demo 3.3 — Streak Tracker (Session 3, 20 min)
+### Demo 3.1 — Life OS Workflow and Kanban Build (Session 2, 20 min)
 
-**Steps:**
-1. Create Streak Tracker database: Date (Date), Habit (Select), Completed (Checkbox), Notes (Text)
-2. Add habits: Morning Planning, End-of-Day Reflection, Session Logged
-3. Add entries for past 5 days (fictional but realistic — 2 missed reflection days)
-4. Create view: last 14 days, sorted by Date descending
-5. Link view to the Master Dashboard as "Daily Habits"
+**What the instructor should show first:**
+- Open Alex's Task Database in Table view
+- Show the old Status options (the messy ones from Days 1–2) — "We're going to standardize this"
+
+**Step-by-step click sequence:**
+1. Click the "Status" column header → "Edit property"
+2. Remove all existing options by clicking "×" on each
+3. Add the 6 standard Life OS statuses: **Inbox → Planned → This Week → In Progress → Waiting / Blocked → Done**
+4. Assign distinct colors: Inbox (grey), Planned (blue), This Week (yellow), In Progress (purple), Waiting (orange), Done (green)
+5. Click "Done", then "+ Add view" → select "Board"
+6. Confirm grouping is "Status"
+7. Drag several of Alex's tasks into correct columns:
+   - Inbox: "Research dentist options", "Find recipe ideas for dinner"
+   - This Week: "Deliver Client A brief", "Newsletter draft"
+   - In Progress: "Portfolio page 3" (only 1 — maintain WIP)
+   - Waiting: "Client B payment — awaiting invoice approval"
+8. Press `/` above the board → "Callout" → type: "🎯 In Progress limit: 3. If adding a 4th, something must move to Done or Planned first."
+9. "+ Add view" → name it "Active Work" → filter: Status ≠ Inbox AND Status ≠ Done
+
+**What to say when introducing Life OS workflow:**
+> "One workflow for everything. Your dentist appointment research sits next to your client brief. Your newsletter draft sits next to your personal goal to learn a language. This is what makes it a Life OS — everything flows through the same system."
+
+**Where students commonly get stuck:**
+- Editing the Status property (vs. trying to change it in the view) — show the distinction clearly
+- Accidentally deleting Status options they still need
+- Not creating the filtered "Active" view (leaving Inbox clutter visible)
+
+**How to keep pace:**
+- Demo takes 20 minutes max. Move directly to student task time after.
+- If students have Notion loading issues, let them work from the blueprint: [`templates/day_3_life_os_dashboard_build_guide.md`](../templates/day_3_life_os_dashboard_build_guide.md)
+
+---
+
+### Demo 3.2 — Life OS Dashboard Build (Session 3, 20 min)
+
+**What the instructor should show first:**
+- Open a blank Notion page
+- "I'm going to build this in front of you in real time, in the order you'll build it."
+
+**Step-by-step click sequence:**
+1. Create page → name: "🏠 Alex's Life OS"
+2. Click **•••** top-right → enable **"Full width"**
+3. Click the emoji space → choose 🏠
+4. Click "Add cover" → select from Notion's free image library → pick something calm and professional
+   - *(Note to instructor: recommend learners add their own original screenshot of their workspace here after class)*
+5. Press `/` → "Callout" → write: `Life OS | Week of [date] | Work · Newsletter · Personal · Admin`
+6. Add a Heading 2: "🎯 Today"
+7. Press `/` → "Linked view of database" → select Task Database
+8. Rename view: "Today" → Filter: Due Date = Today **OR** Status = In Progress → Properties: show Name, Status, Area only
+9. Hover right edge of the "Today" block → drag another block alongside it → creates 2-column layout
+10. In Column 2: Add linked database "⚠️ Overdue" → Filter: Due before Today AND Status ≠ Done → sort Due Date ascending
+11. Below "Today" in Column 1: Add "📅 This Week" → Due ≤ today + 7 days, Status ≠ Done, sort Priority
+12. Below "Overdue" in Column 2: Add "🔔 Due Soon" → Due within next 3 days AND Status ≠ Done
+13. Below the 2-column section: Add "🗂️ Active Work" Kanban — Board view, Status ≠ Inbox, Status ≠ Done
+14. Below that: "✅ Completed Recently" → Status = Done, last edited within 7 days
+
+**How to transition from dashboard aesthetics to actual usefulness:**
+> "I know some of you want to spend 30 minutes choosing the perfect cover photo. I've been there. But here's my rule: your dashboard earns its right to look good after it earns its right to be useful. Let's get the data right first. You can make it pretty tonight."
+
+**Where students commonly get stuck:**
+- Linked database showing "No results" — check that filters are correct and that tasks have Due Dates
+- Column layout collapsing — usually from clicking elsewhere during drag; retry slowly
+- Setting wrong view type on the kanban section (must be Board, not Table)
+
+---
+
+### Demo 3.3 — Reminder Views and Due-Date Setup (Session 4, 10 min)
+
+**What the instructor should show first:**
+- Open any task in Alex's Task Database that has no Due Date
+- "This task is invisible to every filter. Let's fix that."
+
+**Step-by-step click sequence:**
+1. Open the task → click "Due Date" field → set a date 2 days from now
+2. Click the date again → scroll to see the reminder dropdown → enable "1 day before"
+3. Close the task → show it appearing in "Due Soon" on the dashboard
+4. Open Task Database → click "+ Add a property" → choose Date → name it "Reminder Date"
+5. Show 2 existing tasks with Due Dates → add a Reminder Date (e.g., 2 days before Due Date)
+6. Show the "Overdue" view → confirm it's catching Alex's past-due tasks
+
+**What to say about reminders:**
+> "Your Due Soon and Overdue views ARE your reminder system. The goal is to make the system do the worrying so your brain doesn't have to. But reminders only work when tasks have dates — so make sure your important tasks all have a Due Date."
+
+---
+
+### Demo 3.4 — Daily Check-In Routine (Session 5, 10 min)
+
+**What the instructor should show first:**
+- Scroll to the top of Alex's Life OS dashboard
+- "This is where the daily ritual lives — and it has to be at the top, not the bottom."
+
+**Step-by-step click sequence:**
+1. Press `/` → "Toggle List" → name: `📝 Daily Check-In — [Today's date]`
+2. Open the toggle → add 5 lines:
+   ```
+   1. Top 3 priorities today:
+   2. Anything overdue to address first?
+   3. What did I avoid yesterday?
+   4. Energy level today: /5
+   5. What would make today feel complete?
+   ```
+3. Fill in each question live for Alex's fictional context
+4. Collapse the toggle → "The page stays clean. The data is there."
+5. Say to learners: "You'll fill this in during class today for your own system. That's your first real check-in."
+
+**What to say about daily check-ins:**
+> "The check-in is not a task. It's a ritual. It's the moment you go from reactive to intentional. The difference between opening Instagram and opening your Life OS is this 5 minutes of deliberate attention."
+
+---
+
+### Demo 3.5 — Weekly Status View (Session 6, 10 min)
+
+**What the instructor should show first:**
+- Scroll to the bottom of Alex's dashboard
+- "This section answers a different question from 'what do I do today.' It answers: 'how is my week actually going?'"
+
+**Step-by-step click sequence:**
+1. Add a Heading 2: "📊 Week in Review"
+2. Add linked database: Task DB → rename "✅ Completed This Week" → Filter: Status = Done, date filter: this week → view: List
+3. Below it, add a text block:
+   ```
+   Week of: [date]
+   Wins this week:
+   -
+   Still in progress / carried over:
+   -
+   What I'm re-prioritising:
+   -
+   Focus for next week:
+   -
+   ```
+4. Fill in "Wins" for Alex's week using fictional data: "Delivered Client A brief, published newsletter"
+5. "This section feeds directly into the weekly review we'll do on Day 4. You're building the source now."
+
+**How to keep pace:**
+- Each demo is standalone — if time is tight, combine 3.3 and 3.4 into one 15-minute block
+- Leave 20 minutes at minimum for the "Simulate a Real Day" exercise — it's the payoff session
 
 ---
 

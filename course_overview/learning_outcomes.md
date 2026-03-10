@@ -46,7 +46,7 @@ By the end of this course, each learner will have **designed, built, and tested 
 
 ---
 
-#### Day 3: Dashboard & UX
+#### Day 3: Dashboard & Tracking
 
 **By the end of Day 3, learners will be able to:**
 

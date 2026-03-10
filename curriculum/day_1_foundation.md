@@ -307,10 +307,10 @@ Tomorrow we move from *what you want to do* to *deciding what to do first*. Day 
 
 ## Notebook Mapping
 
-> This curriculum references future notebook content that has not yet been built.  
-> See [`notebooks/README.md`](../notebooks/README.md) for planned notebook content.
+> This day's activities are supported by **optional interactive notebooks** for deeper analysis.
+> See [`notebooks/day_1_foundation.ipynb`](../notebooks/day_1_foundation.ipynb) or the [Colab version](../colab_versions/day_1_foundation.ipynb).
 
-**Planned notebook exercises for Day 1 (future):**
+**Available notebook exercises for Day 1:**
 - `nb_01_goal_analysis.ipynb` — Analyse goal phrasing patterns; visualise goal-project-task hierarchy
 - `nb_02_task_breakdown_experiment.ipynb` — Compare AI task breakdown outputs for different prompt formulations
 

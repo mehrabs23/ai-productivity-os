@@ -328,9 +328,10 @@ Tomorrow we move from a system in databases to a **system you can see and naviga
 
 ## Notebook Mapping
 
-> See [`notebooks/README.md`](../notebooks/README.md) for planned notebook content.
+> This day's activities are supported by **optional interactive notebooks** for deeper analysis.
+> See [`notebooks/day_2_prioritization.ipynb`](../notebooks/day_2_prioritization.ipynb) or the [Colab version](../colab_versions/day_2_prioritization.ipynb).
 
-**Planned notebook exercises for Day 2 (future):**
+**Available notebook exercises for Day 2:**
 - `nb_03_session_log_analysis.ipynb` — Import CSV session log and compute actual allocation percentages
 - `nb_04_priority_statistics.ipynb` — Analyse priority distribution and identify overloaded task lists
 

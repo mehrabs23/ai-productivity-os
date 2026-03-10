@@ -48,11 +48,11 @@
 
 | Milestone | Target Date | Status |
 |-----------|------------|--------|
-| 6-video content plan finalised | Jan 8 | ✅ Done |
-| Script 1 completed and recorded | Jan 15 | ✅ Done |
-| Editing complete for Video 1 | Jan 20 | 🟡 In Progress |
-| Video 1 published with SEO + thumbnail | Jan 25 | ⬜ Not Started |
-| Script 2 completed | Jan 28 | ⬜ Not Started |
+| 6-video content plan finalised | Jan 0X | ✅ Done |
+| Script 1 completed and recorded | Jan 1X | ✅ Done |
+| Editing complete for Video 1 | Jan 2X | 🟡 In Progress |
+| Video 1 published with SEO + thumbnail | Jan 2Y | ⬜ Not Started |
+| Script 2 completed | Jan 2Z | ⬜ Not Started |
 
 *"Working backwards from the Jan 25 publish date, I need editing done by Jan 20 which means recording by Jan 15. I can't start recording until the script is 100% done — that's the constraint."*
 
@@ -120,3 +120,82 @@ Every Monday morning before opening any social media:
 4. **Attention Budget Prompt** → Revealed distribution black hole
 5. **Daily Planning Prompt** → Saved 20 minutes per Monday; replaced chaotic "I'll figure it out" approach
 6. **System Retrospective Prompt** → Stripped dashboard from 6 sections to 2; added SEO learning task to Friday block
+
+---
+
+## Day 3: Priya's Life OS Operationalized
+
+### Priya's Life OS Dashboard
+
+Priya named the dashboard: **🎬 Priya's Creator OS**
+
+"Creator OS" — Priya's system is built around dual lives: full-time bank associate by day, content creator by evening and weekend.
+
+**Dashboard layout (2-column, full-width):**
+
+| Column 1 | Column 2 |
+|----------|----------|
+| 📝 Daily Check-In (toggle, top) | 📝 Daily Check-In continued |
+| 🎯 Today (video production tasks + bank work) | ⚠️ Overdue |
+| 📅 This Week | 🔔 Due Soon |
+
+**Below fold:**
+- 🗂️ Kanban — Active (Creator + Bank + Personal)
+- ✅ Completed Recently
+- 📊 Week in Review
+
+**Life areas on Priya's Kanban:**
+
+| Area | Example tasks |
+|------|--------------|
+| Content Production | "Script Video 3", "Record talking head — Video 2", "Edit Saturday session" |
+| Strategy | "Find 3 Reddit communities for distribution", "Analyse top-performing February video" |
+| Bank Work | "Prepare Q1 client review pack", "Submit timesheet" |
+| Admin | "Chase affiliate partnership invoice", "Reply to brand deal enquiry" |
+| Personal | "GP check-up", "Call parents Sunday" |
+
+### Priya's Reminder Setup
+
+Priya's most critical reminder: video publish dates.
+
+She sets a Due Date on each video's "Publish" task and a Reminder Date 4 days earlier (to leave time for thumbnail, SEO, and scheduling).
+
+> *"Before, I'd suddenly realize on a Thursday that a video was meant to go live Saturday and I hadn't done the thumbnail. Now I see it in 'Due Soon' on Monday. I actually have time to prepare."*
+
+Priya's **Overdue view** caught a distribution task that had been quietly slipping for 2 weeks — Reddit posting she said she'd do bi-weekly but hadn't done once. Naming it as overdue forced her to address it.
+
+**Her Due Soon view** shows the next video publish milestone and her Friday strategy block task. She checks both every Monday morning before work.
+
+### Priya's Daily Check-In (Example Entry — Saturday production day)
+
+**📝 Daily Check-In — Saturday**
+
+1. **Top 3 priorities today:** Record Video 2 talking head (2 takes), Complete rough edit of Video 1, Research 3 keywords for Video 2 thumbnail
+2. **Overdue to address first?** Reddit distribution post — 3rd week missed. Do 1 post before recording.
+3. **What I avoided yesterday?** The SEO research for the thumbnail. Pattern: I avoid things I don't feel confident about.
+4. **Energy level:** 4/5 (rested, excited about recording day)
+5. **What would make today feel complete?** Video 1 rough edit done and sent to editor by 6pm.
+
+### Priya's Weekly Status (Example — content creator week)
+
+**Week of: [current week]**
+
+**Wins this week:**
+- Published Video 1 on time (first time hitting the publish deadline without panic)
+- Did 1 Reddit distribution post (broke 3-week streak of avoidance)
+- Filmed b-roll for Video 2
+
+**Still in progress / carried over:**
+- SEO research for Video 2 thumbnail — not done (same avoidance pattern)
+- Affiliate partnership email — drafted but not sent
+
+**What I'm re-prioritising:**
+- SEO avoidance needs to be fixed, not deferred — booking 1 hour Friday for a YouTube SEO tutorial
+
+**Focus for next week:**
+- Script Video 3, complete Video 2 edit, 2 Reddit posts (not 1)
+
+### Priya's Key Day 3 Insight
+
+> *"My system showed me that I was hiding behind production. The finished video is the visible work — the strategy, the distribution, the analysis — that's invisible. My Kanban showed 8 tasks in Production and 0 in Strategy. That visual alone changed my thinking for next week."*
+

@@ -86,7 +86,7 @@ Times are expressed as **elapsed time from session start (T+0)**.
 
 ## Day 3 Timing Plan
 
-**Day Theme:** Dashboard & UX — Kanban, Visibility, and Streaks  
+**Day Theme:** Dashboard & Tracking — Kanban, Visibility, and Streaks  
 **Total Duration:** 5 hours (300 minutes)
 
 | T+ | Activity | Duration | Cumulative |

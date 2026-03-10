@@ -15,7 +15,7 @@ A 4-day, hands-on course where learners build their own AI-assisted personal pro
 | **Duration** | 4 days × 5 hours = 20 hours total |
 | **Format** | Live instruction + guided practice + daily deliverables |
 | **Level** | Beginner-friendly; no technical background required |
-| **Tools** | Notion (free), ChatGPT (free tier), Google Sheets (optional) |
+| **Tools** | Notion (free), ChatGPT (free tier), Jupyter/Colab (optional extension) |
 | **Outcome** | A fully functional, personalised AI productivity system |
 
 ---
@@ -52,7 +52,7 @@ Streaks, daily check-ins, and weekly reviews are not extras — they are core in
 |-----|-------|-----------------|
 | **Day 1: Foundation** | Goals, projects, and tasks | Notion workspace with goals, projects, and task database |
 | **Day 2: Prioritization** | Milestones, planning, and effort allocation | Prioritized milestone map + attention budget |
-| **Day 3: Dashboard & UX** | Kanban, progress visibility, and usability | Working productivity dashboard with streak tracker |
+| **Day 3: Dashboard & Tracking** | Kanban, progress visibility, and usability | Working productivity dashboard with streak tracker |
 | **Day 4: AI Review & Capstone** | AI planning loop, reflection, and retrospective | Daily AI planning workflow + capstone presentation |
 
 ---

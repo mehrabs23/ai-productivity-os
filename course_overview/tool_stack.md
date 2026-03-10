@@ -94,16 +94,16 @@ This course uses a deliberately minimal, free, and widely accessible tool stack.
 
 ---
 
-### Future Extension Tools (Not Used in This Course)
+### Interactive Extension Tools (Optional)
 
-The following tools will be used in the future Jupyter Notebook / Google Colab extension of this course. They are **not required** for the current 4-day version.
+The following interactive tools are used in the Jupyter Notebook / Google Colab extension of this course. They allow learners to perform deeper data analysis on their productivity patterns using Python.
 
 | Tool | Purpose | Status |
 |------|---------|--------|
-| **Google Colab** | Hosted Python notebooks for data analysis exercises | Future — see `colab_versions/README.md` |
-| **Jupyter Notebook** | Local Python notebook alternative | Future — see `notebooks/README.md` |
-| **Pandas** | Data processing for session log analysis | Future |
-| **Matplotlib / Seaborn** | Visualisation for attention and session dashboards | Future |
+| **Google Colab** | Hosted Python notebooks for data analysis exercises | ✅ Available |
+| **Jupyter Notebook** | Local Python notebook alternative | ✅ Available |
+| **Pandas** | Data processing for session log analysis | Included in notebooks |
+| **Matplotlib / Seaborn** | Visualisation for attention and session dashboards | Included in notebooks |
 
 ---
 

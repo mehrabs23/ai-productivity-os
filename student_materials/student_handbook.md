@@ -40,6 +40,7 @@ Over four days, you'll assemble a complete **Personal Productivity Operating Sys
 |------|---------|---------------|
 | **Notion** | Your workspace — all databases, views, dashboard | [notion.so](https://notion.so) |
 | **ChatGPT** | AI thinking partner — prompts for every session | [chat.openai.com](https://chat.openai.com) |
+| **Colab / Jupyter** | Optional: interactive data analysis exercises | [colab.research.google.com](https://colab.research.google.com) |
 
 Both are free. No credit card required.
 

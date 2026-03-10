@@ -84,8 +84,74 @@ The first 15 minutes of Day 1 set the social contract for the course. Establish 
 - Many learners will have zero work session log entries — help them estimate retroactively from calendar data or memory
 
 #### Day 3
-- Dashboard building is satisfying and learners tend to over-engineer. Remind them: "Done is better than perfect. You can polish this system for weeks after the course."
-- Streak trackers work best for habits that can be tracked with a yes/no. Watch for learners who try to track outcomes (e.g., "spent 4 hours on Project A") rather than processes (e.g., "completed morning planning")
+
+**Core Day 3 principle: Day 3 is about usability, not just structure.**
+
+By the end of Day 3, learners must be able to use their system — not just admire it. The test: can a learner open Notion and know what to do next in under 10 seconds? If not, the dashboard is not working.
+
+**The dashboard must support action, not just visibility.**
+
+A dashboard with 12 sections and zero actionable decisions is a decoration, not a tool. Remind learners frequently:
+- "Would you actually open this tomorrow morning?"
+- "Can you take one action from this view right now?"
+
+If the answer is no, simplify.
+
+**Reminders reduce mental load.**
+
+Many learners carry their task list in their heads because no system has reliably resurfaced things at the right moment. When teaching the Due Soon and Overdue views, frame reminders as cognitive offloading:
+> "Every task you're worrying about remembering is borrowing CPU from your thinking. The system exists to carry those tasks — not your brain."
+
+Explain that Notion's date-based reminder notifications only work when tasks have dates. This is why Task 1 (the audit) includes adding due dates.
+
+**Kanban is a visual Life OS — not just corporate project management.**
+
+Many learners will associate Kanban with Jira, Trello, or corporate sprints. Reframe deliberately:
+> "This board has your dentist appointment, your essay draft, your side hustle idea, and your work deadline — all in one view. That's a Life OS board."
+
+Point to the "Waiting / Blocked" column: "This column is where honest systems put things that can't move. Without it, blocked tasks hide inside 'In Progress' and never get done."
+
+**Daily check-ins create daily intention.**
+
+The check-in is the highest-leverage habit in the system. Without it, learners return to reactivity — opening email first, planning from inbox instead of priorities.
+
+When introducing the check-in, make it feel like a ritual, not an admin task:
+> "The check-in is 5 minutes. It replaces 30 minutes of confusion about what you're supposed to work on."
+
+Have learners fill in their first check-in during class — not as a demo, but as real use.
+
+**Weekly status views support clarity and accountability.**
+
+Frame the weekly status as:
+- A self-honesty check (what actually got done vs. what I planned)
+- A communication tool (sharable with an accountability partner)
+- A Day 4 input (the weekly review on Day 4 uses this section as its starting point)
+
+**Common Day 3 misconceptions:**
+
+| Misconception | Correction |
+|--------------|-----------|
+| "I need to make the dashboard look good first" | Function before aesthetics — build views, then polish |
+| "Kanban is for work tasks only" | Personal, study, and admin tasks belong there too |
+| "I don't need Due Dates if I know what's important" | Dates power all reminder views — without them, filters don't work |
+| "The daily check-in is too simple to matter" | Simplicity is a feature — a 5-minute ritual beats a 30-minute one you skip |
+| "More sections = more complete" | 6–8 sections is the sweet spot. More = scroll fatigue. |
+
+**Common student confusion points:**
+
+1. **Linked database vs. adding a new database:** Show the difference explicitly — "Linked View of Database pulls from your existing database. We're not creating new data here."
+2. **Filter logic:** Keep to simple cases for beginners — don't combine AND/OR until basics are working.
+3. **2-column layout collapsing:** "Normal in Notion — just drag the block back beside it. It takes practice."
+4. **WIP limit:** "The limit makes you tell the truth. When everything is 'In Progress,' nothing actually is."
+
+**How to redirect students stuck in aesthetic perfectionism:**
+
+When a student is adjusting cover photos while their Due Soon view is empty:
+1. Walk over and ask: "Does your Overdue view have any tasks in it?"
+2. Redirect with warmth: "The aesthetics will matter when you open this tomorrow. The data needs to work first."
+
+Suggested phrase to say to the whole room:
+> "I'm noticing some of you are in dashboard-decoration mode — that's a great sign it feels like yours. But let's run the 5-second test together first. If it passes, decorate away."
 
 #### Day 4
 - The capstone is the most important session of the course. Give it adequate time.
