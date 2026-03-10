@@ -8,17 +8,30 @@
 
 ---
 
-### Before You Start — Life OS Audit
+## Before You Start — Which Track Are You On?
 
-Check that you have from Days 1 and 2:
+> ### 🟢 Track A — Continuing from Days 1 & 2
+> **Use this track if you have:**
+> - Goals database with 2+ goals
+> - Projects database with 1+ active projects
+> - Tasks database with 10+ tasks and Due Dates set
+> - Area / Life Domain property on your Task database
+>
+> **→ Start at Task 1 below. Skip the Track B callouts.**
 
-- [ ] At least 2–3 goals from different life areas (not just work)
-- [ ] Tasks from at least 2 life areas (work, studies, personal, health, content, admin, etc.)
-- [ ] At least 5 tasks with Due Dates set
-- [ ] Area / Life Domain property on your Task database (or note to add it today)
-- [ ] Your Notion workspace accessible and loading
-
-If anything is missing, use the first 15 minutes to backfill. Use the Task Breakdown Prompt to quickly populate tasks for an under-served area.
+> ### 🟡 Track B — Starting Fresh (Latecomer / No Prior Setup)
+> **Use this track if you:**
+> - Missed Days 1 and/or 2
+> - Have a blank Notion workspace
+> - Have incomplete task data (fewer than 5 tasks, no due dates set, no Area property)
+>
+> **→ Before doing ANYTHING on this sheet, complete the Minimum Setup Path:**
+> [`templates/day_3_minimum_setup_path.md`](../../templates/day_3_minimum_setup_path.md)
+> It takes 20–30 minutes and gives you exactly what you need to participate in all Day 3 activities.
+> **Then return here and follow the Track B callouts in each task below.**
+>
+> ⚠️ You do NOT need Goals or Projects databases to participate today.
+> One Tasks database with 8–10 tasks is enough for everything in Day 3.
 
 ---
 
@@ -28,7 +41,10 @@ If anything is missing, use the first 15 minutes to backfill. Use the Task Break
 
 **Estimated time:** 15 minutes
 
-### What to do
+> **🟡 Track B:** You already completed this setup via the Minimum Setup Path. Proceed directly to Task 2.
+> Quick confirmation: does your Tasks database have 8+ tasks, 2+ life areas, and at least 1 task with a due date in the past? If yes — you're ready.
+
+### What to do (Track A)
 
 1. Open your Task Database in Notion
 2. Confirm you have tasks in at least 2 different life areas (work + at least one of: personal, studies, content, health, admin)
@@ -37,9 +53,7 @@ If anything is missing, use the first 15 minutes to backfill. Use the Task Break
 5. Assign Area values to your 10 most important tasks
 
 ### What success looks like
-- 10+ tasks, at least 2 life areas represented
-- 5+ tasks with Due Dates
-- Area property exists on Task database
+- 10+ tasks, at least 2 life areas represented, 5+ tasks with Due Dates, Area property exists
 
 ### Common mistakes
 - Only having work tasks (your Life OS should represent your whole life)
@@ -52,6 +66,8 @@ If anything is missing, use the first 15 minutes to backfill. Use the Task Break
 **Objective:** Create a visual workflow board across all life areas using a unified set of status values.
 
 **Estimated time:** 30 minutes
+
+> **🟡 Track B:** Follow all steps exactly as written. Your minimum setup already has the correct 6 Status values. Start at Step 1.
 
 ### Your 6 Status Values (set these exactly)
 
@@ -109,6 +125,13 @@ Task Database Board view with 6 statuses, tasks from 2+ areas, "Active Work" fil
 **Objective:** Build a single Notion page that shows your full life system at a glance.
 
 **Estimated time:** 40 minutes
+
+> **🟡 Track B:** Follow all steps exactly as written. When the steps refer to Goals or Projects databases:
+> - Skip the "Active Projects" section — you don't have a Projects database yet
+> - Skip any step asking you to link the Goals database
+> - Everything else (Kanban, Today, Overdue, Due Soon, This Week, Completed Recently, Check-In, Weekly Status) works exactly the same with only a Tasks database
+>
+> Your dashboard will have all the core views and will work identically to Track A learners for all Day 3 activities.
 
 ### Required Dashboard Sections (build in this order)
 
@@ -186,6 +209,8 @@ Life OS Dashboard: icon, cover, full-width, 5+ linked views in 2-column layout, 
 **Objective:** Make your dashboard actively surface what's urgent and overdue.
 
 **Estimated time:** 20 minutes
+
+> **🟡 Track B:** If you used the Minimum Setup Path, the Reminder Date property already exists. Skip Step 2. Start at Step 3 — set 2 reminders on tasks you added.
 
 ### Step-by-Step
 

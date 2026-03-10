@@ -6,14 +6,22 @@
 
 ---
 
-## Before You Start
+## Before You Start — Which Track Are You On?
 
-Make sure you have:
-- [ ] A Notion account with your existing databases (Goals, Projects, Tasks) from Days 1–2
-- [ ] At least 5 tasks with Due Dates already set
-- [ ] Area / Life Domain property on your Task database (Select type with values: Work / Studies / Personal / Content / Health / Admin / Finance)
+> ### 🟢 Track A — Continuing from Days 1 & 2
+> **You have:** Goals database, Projects database, Tasks database from Days 1–2, plus Area / Life Domain property and at least 5 tasks with Due Dates.
+>
+> ✅ Proceed directly to **Section A: Page Setup** below.
 
-If any of these are missing, complete the [Day 3 Audit Task](../student_materials/student_task_sheets/day_3_tasks.md) first.
+> ### 🟡 Track B — Starting Fresh (Latecomer / No Prior Setup)
+> **You have:** A blank Notion workspace OR an incomplete setup (no Goals/Projects database, fewer than 5 tasks, no Due Dates or Area property).
+>
+> **→ Before opening this guide, complete the Minimum Setup Path first:**
+> [`templates/day_3_minimum_setup_path.md`](day_3_minimum_setup_path.md)
+>
+> It takes 20–30 minutes. When you return, follow the instructions in this guide exactly — **except Section C (Goals/Projects/Active Areas), which is marked optional for Track B**.
+>
+> ⚠️ You do NOT need Goals or Projects databases to complete Day 3. One Tasks database with 8–10 real tasks is enough for all Day 3 views and activities.
 
 ---
 
@@ -182,12 +190,14 @@ Your Task database has:
 
 ---
 
-## Section C: Goals / Projects / Active Areas
+## Section C: Goals / Projects / Active Areas *(Track A — Optional for Track B)*
 
 ### Purpose
 Surface your active commitments across all life areas so you don't lose track of bigger-picture work.
 
-### Steps
+> **🟡 Track B:** Skip this section. You don't have a Projects or Goals database yet. This section is for learners who completed Days 1–2. You can add these databases after the session using the Day 1–2 materials.
+
+### Steps (Track A only)
 
 **C1. Create a filtered "Active Projects" view in your Projects database:**
 1. Open your Projects database
