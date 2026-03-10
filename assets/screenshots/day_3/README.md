@@ -37,7 +37,31 @@
 
 ---
 
-### Screenshot 2: Workflow Status Property Setup
+### Screenshot 2: Task Database Setup
+
+**Filename:** `day3_task_database_setup.png`
+
+**What to show:**
+- Alex's Task database in table view, showing all 6 required properties as visible columns:
+  - Task Name, Area / Life Domain, Status, Priority, Due Date, Reminder Date
+- At least 10 rows of realistic tasks visible with values filled in for every column
+- Tasks spanning at least 2 Area values (e.g., Work rows and Personal rows visible)
+- The property type icons visible in the column headers (Select, Date, etc.)
+
+**Where it will be used:**
+- `templates/day_3_minimum_setup_path.md` (Step 3 — Add Required Properties)
+- `templates/day_3_life_os_dashboard_build_guide.md` (Section B intro)
+- `student_materials/student_task_sheets/day_3_tasks.md` (Task 1 reference)
+
+**Capture tips:**
+- Open the database in full-page view (click the ↗ expand icon)
+- Widen the columns so all property names and values are fully readable
+- Freeze the first column if possible so Task Name is always visible
+- Ensure no rows are cut off at the bottom
+
+---
+
+### Screenshot 3: Workflow Status Property Setup
 
 **Filename:** `day3_status_property_setup.png`
 
@@ -47,7 +71,7 @@
 - Colour dots clearly visible next to each status name
 
 **Where it will be used:**
-- `templates/day_3_life_os_dashboard_build_guide.md` (Section B1)
+- `templates/day_3_life_os_dashboard_build_guide.md` (Section B1 — Standardize Status Property)
 - `templates/notion_blueprint.md` (Status values section)
 - `student_materials/student_task_sheets/day_3_tasks.md` (Task 2 reference)
 
@@ -57,7 +81,7 @@
 
 ---
 
-### Screenshot 3: Kanban Board View
+### Screenshot 4: Kanban Board View
 
 **Filename:** `day3_kanban_board.png`
 
@@ -71,7 +95,7 @@
 **Where it will be used:**
 - `curriculum/day_3_dashboard_and_tracking.md` (Kanban section)
 - `templates/dashboard_blueprint.md` (Kanban section)
-- `instructor_guide/demo_flow.md` (Demo 3.1)
+- `instructor_guide/demo_flow.md` (Session 2 demo)
 
 **Capture tips:**
 - Capture the full-width board including all column headers
@@ -80,7 +104,7 @@
 
 ---
 
-### Screenshot 4: Today View
+### Screenshot 5: Today View
 
 **Filename:** `day3_today_view.png`
 
@@ -100,7 +124,7 @@
 
 ---
 
-### Screenshot 5: Due Soon View
+### Screenshot 6: Due Soon View
 
 **Filename:** `day3_due_soon_view.png`
 
@@ -121,7 +145,7 @@
 
 ---
 
-### Screenshot 6: Overdue View
+### Screenshot 7: Overdue View
 
 **Filename:** `day3_overdue_view.png`
 
@@ -143,7 +167,7 @@
 
 ---
 
-### Screenshot 7: Completed Recently View
+### Screenshot 8: Completed Recently View
 
 **Filename:** `day3_completed_recently_view.png`
 
@@ -163,7 +187,7 @@
 
 ---
 
-### Screenshot 8: Daily Check-In Section
+### Screenshot 9: Daily Check-In Section
 
 **Filename:** `day3_daily_checkin_filled.png`
 
@@ -185,7 +209,7 @@
 
 ---
 
-### Screenshot 9: Weekly Status Section
+### Screenshot 10: Weekly Status Section
 
 **Filename:** `day3_weekly_status_filled.png`
 
@@ -209,7 +233,7 @@
 
 ---
 
-### Screenshot 10: Good Dashboard Layout Example
+### Screenshot 11: Good Dashboard Layout Example
 
 **Filename:** `day3_dashboard_layout_good.png`
 
@@ -260,4 +284,5 @@ Resolution: Minimum 1280px wide
 ---
 
 *This file was created as part of the Day 3 Life OS Rewrite — March 2026.*  
-*See `curriculum/day_3_dashboard_and_tracking.md` for the full context.*
+*See `curriculum/day_3_dashboard_and_tracking.md` for the full Day 3 curriculum context.*  
+*Fallback setup for latecomers: `templates/day_3_minimum_setup_path.md`*
